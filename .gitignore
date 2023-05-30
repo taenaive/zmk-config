@@ -1,0 +1,5 @@
+/.west
+/modules
+/build
+*.DS_Store
+__pycache__
