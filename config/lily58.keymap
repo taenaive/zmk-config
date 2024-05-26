@@ -98,7 +98,7 @@
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans    &trans    &trans
 &trans    &trans &trans &trans  &trans  &trans                       &kp INS      &kp HOME &kp UP    &kp END   &kp PG_UP &trans
 &trans    &trans &trans &trans  &trans  &trans                       &hola_zero  &hola_one &kp DOWN  &kp RIGHT &kp PG_DN &kp PIPE
-&trans    &trans &trans &trans  &trans  &trans   &trans   &trans     &kp KP_PLUS &kp MINUS &kp LBKT &kp eq_gr_seq  &kp EQUAL   &trans
+&trans    &trans &trans &trans  &trans  &trans   &trans   &trans     &kp KP_PLUS &kp MINUS &kp LBKT  &eq_gr_seq  &kp EQUAL   &trans
                         &trans  &trans  &trans    &trans   &kp RET   &trans      &trans    &trans
             >;
 
