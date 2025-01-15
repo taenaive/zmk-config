@@ -27,15 +27,15 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   | INS | HOME|  UP | END |PG_UP| BKSP |
+// | BSPC |  1  |  2  |  3  |  4  |  5  |   | INS | HOME|  UP | END |PG_UP| BKSP |
 // | BTCLR|  6  |  7  |  8  |  9  |  0  |   | DEL | LFT | DWN | RGT |     |      |
 // | SHFT | BT1 | BT2 | BT3 | BT4 |  .  |   | BT5 |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+//                    | GUI |     | ESC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp INS        &kp HOME &kp UP       &kp END      &kp PG_UP &kp BSPC
-   &bt BT_CLR &kp N6       &kp N7       &kp N8       &kp N9       &kp N0         &kp DEL        &kp LEFT &kp DOWN     &kp RIGHT    &kp PG_DN &trans
-   &kp LSHFT  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp DOT        &bt BT_SEL 4   &trans   &kp LC(LEFT) &kp LC(RIGHT) &trans    &kp ESC
-                                        &kp LGUI     &trans       &kp SPACE      &kp RET        &trans   &kp RALT
+   &kp BSPC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp INS        &kp HOME &kp UP       &kp END      &kp PG_UP &kp BSPC
+   &bt BT_CLR  &kp N6       &kp N7       &kp N8       &kp N9       &kp N0         &kp DEL        &kp LEFT &kp DOWN     &kp RIGHT    &kp PG_DN &trans
+   &kp LSHFT   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp DOT        &bt BT_SEL 4   &trans   &kp LC(LEFT) &kp LC(RIGHT) &trans    &kp ESC
+                                         &kp LGUI     &trans       &kp ESC      &kp RET        &trans   &kp RALT
                         >;
                 };
 
